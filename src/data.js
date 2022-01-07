@@ -26,7 +26,7 @@ export const products = [
     },
     {
       id: 6,
-      img: "https://images.pexels.com/photos/3585047/pexels-photo-3585047.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      img: "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       link: "https://github.com/Rulls07",
     },
   ];

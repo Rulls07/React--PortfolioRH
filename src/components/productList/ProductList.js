@@ -1,16 +1,15 @@
 import "./productList.css";
-import Product from "./../product/Product"
+import Product from "./../product/Product";
 import { products } from "../../data";
 
 const ProductList = () => {
   return (
-  <div className="pl">
+    <div className="pl">
       <div className="pl-texts">
-      <h1 className="pl-title">Portfolio</h1>
+        <h1 className="pl-title">Portfolio</h1>
         <p className="pl-desc">
-          Lama is a creative portfolio that your work has been waiting for.
-          Beautiful homes, stunning portfolio styles & a whole lot more awaits
-          inside.
+          Currently in training, you will find small projects in different
+          programming languages.
         </p>
       </div>
       <div className="pl-list">
@@ -18,7 +17,7 @@ const ProductList = () => {
           <Product key={item.id} img={item.img} link={item.link} />
         ))}
       </div>
-  </div>
+    </div>
   );
 };
 
